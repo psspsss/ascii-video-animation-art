@@ -1,0 +1,38 @@
+body {
+    background-color: #000;
+    color: #ffffff;
+    font-family: monospace;
+    white-space: pre;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vh;
+  }
+  
+  #ascii {
+    line-height: 9.5px; /* Adjust to fit the aspect ratio of ASCII art */
+    font-size: 3px;    /* Adjust to make the ASCII text more compact */;
+  }
+  
+  .ogvideo-container {
+    display: flex;
+    height: 100vh;
+    width: 100vh;  
+    padding-left: 50vh;
+    align-items:center;
+    justify-content: center;
+  }
+
+  #video{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height:97vh;
+    width: 100vh;
+    margin: auto;
+    padding: 20px;
+
+  }
