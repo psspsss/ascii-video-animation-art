@@ -8,8 +8,8 @@ const video = document.getElementById("video");
 const asciiDiv = document.getElementById("ascii");
 
 // Set video properties
-video.width = 100; // Adjust the resolution for ASCII art
-video.height = 80; 
+video.width = 100vh; // Adjust the resolution for ASCII art
+video.height = 100; 
 video.play();
 
 const canvas = document.createElement("canvas");
